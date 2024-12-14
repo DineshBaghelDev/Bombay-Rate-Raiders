@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bombay Rate Raiders</title>
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <header>
+        <nav class="navbar">
+            <img src="./assets/icon.png" width="35px" alt="">
+            <h1>Bombay Rate Raiders</h1>
+        </nav>
+    </header>
+
+    <!-- MAIN FORM TO TAKE INPUT -->
+    <section class="main">
+        <form id="converter">
+            <div>
+                <label for="">Starting Currency</label>
+                <input type="text" placeholder="Ex:USD" id="starting_currency">
+            </div>
+            <div>
+                <label for="">Final Currency</label>
+                <input type="text" placeholder="Ex:INR" id="final_currency">
+            </div>
+            <div>
+                <label for="">Amount</label>
+                <input type="text" placeholder="Ex:100" id="amount">
+            </div>
+            <button class="btn">Convert</button>
+        </form>
+        <img src="./assets/img.png" alt="" class="rightImage">
+        <img src="./assets/img2.png" alt="" class="leftImage">
+    </section>
+
+    <section class="result">
+        <h1>Results</h1>
+        <div id="converted_amount"></div>
+        <div id="best_paths"></div>
+    </section>
+
+    <!-- FOOTER - DISPLAYING SOCIAL MEDIA HANDLES -->
+    <footer>
+        All Rights Reserved | Copyright 2024 &copy; Bombay Rate Raiders <br>
+        Developed and Designed by
+        <a href="https://homepages.iitb.ac.in/~24b4211/">Dinesh</a>.
+        <br>
+        Github : <a href="https://github.com/DineshBaghelDev">https://github.com/DineshBaghelDev</a>
+    </footer>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
